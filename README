@@ -1,14 +1,18 @@
-README:
-Purpose: To demonstrate using a couple of builtin features of chialisp that it is possible to short-range "teleport" value and thereby enhance privacy.
+Purpose: To demonstrate using a couple of builtin features of chialisp that it is possible to short-range "teleport"(blink) value and thereby enhance privacy.
+
 Technique: Leveraging how in chialisp wallet addresses are also puzzle hashes and puzzle hashes are also logic. 
 We enlist a faucet to pay coin A to a wallet address with logic to pay a higher amount into an anonymous wallet. 
 The higher amount is higher by the same value as coin C which needs privacy.
-This transaction was successful and there is no way I know of to prove or deny that the value coin A required did or did not come from coin C.  
-NOTE: This is completely insecure and error prone to do it this way, but is the best way I could think of to foster comprehension, copy/paste and hopefully discussion of my theory. 
+The transaction was provably successful.
+There is no way I know of to prove or deny that the value that coin A required in it's chialisp to run did or did not come from coin C.  
 
+NOTE: This is completely insecure and error prone to do it this way. 
+But is the best way I could think of to foster comprehension, copy/paste and hopefully discussion. 
+--------------
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
 Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
-
+*nucle.io might have my IP address
+----------
 CoinA(created by wallet address converted from puzzlehash and put into faucet.chia.net):
 	    "amount": 100,
             "parent_coin_info": "0xdd34c450a68dabe8851fca2b81ffdef4120a9465039f9c34e5feb059a97acd31",
@@ -26,7 +30,7 @@ CoinD(created normally):
             "parent_coin_info": "0x885bd91652625f1515ecf0083e3006e61340b45a1dd0884a10f11c85b46dbe14",
             "puzzle_hash": "0x9dcf97a184f32623d11a73124ceb99a5709b083721e878a16d78f596718ba7b2"
 
-*nucle.io might have my IP address
 Gerald Neale 2021-10-16
+xch1hv4gj4vvdsyzn9hrhy9tn6hu6jwk82tyrs3t4r33468x642myjws8kh8xl
 mojopuzzler.org
 mojopuzzler.org/pusht.php
