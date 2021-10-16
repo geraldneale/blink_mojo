@@ -1,18 +1,19 @@
-Purpose: To demonstrate using a couple of builtin features of chialisp that it is possible to short-range "teleport"(blink) value and thereby enhance privacy.
+Purpose:To demonstrate, using a couple of builtin features of chialisp, 
+that it's possible to short-range "teleport"(blink) value and thereby enhance money privacy.
 
 Technique: Leveraging how in chialisp wallet addresses are also puzzle hashes and puzzle hashes are also logic.
-If there is unassigned coin(s) value in a spend_bundle in excess of deficit value in the same bundle then the coin having the deficit successfully spends.
-We enlist a faucet to pay coin A to a wallet address with logic to pay a higher amount than it is worth(has deficit value) into an anonymous wallet. 
+And how if there is unassigned coin value in a spend_bundle in excess of a deficit value in the same bundle then the coin having a deficit successfully spends.
+We enlist a faucet to pay coin A to a wallet address with logic to pay a higher amount than it is worth(has a deficit value) into an anonymous wallet. 
 The deficit value of coin A is the same value as coin C which needs privacy.
-The transaction was provably successful.
-There is no way I know of to prove or deny that deficit value of coin A did or did not come from coin C, coin B or a combination.  
+This particular transaction was provably successful.
+There is no known way to prove or deny that the deficit value of coin A did or did not come from coin C, coin B or a combination of the two.  
 
-NOTE: This is completely insecure and error prone doing it this way, but the best way to foster discussion in my opinion. 
+NOTE: This is completely insecure and error prone doing it this way, but rather designed to foster discussion. 
 --------------
-My notes for this transaction:
+Personal notes for this transaction:
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
 Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
-*nucle.io might have my IP address
+*used nucle.io who might get your IP address
 ----------
 CoinA(created by wallet address converted from puzzlehash and put into faucet.chia.net):
 	    "amount": 100,
