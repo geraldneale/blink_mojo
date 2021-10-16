@@ -1,14 +1,15 @@
 Purpose: To demonstrate using a couple of builtin features of chialisp that it is possible to short-range "teleport"(blink) value and thereby enhance privacy.
 
-Technique: Leveraging how in chialisp wallet addresses are also puzzle hashes and puzzle hashes are also logic. 
-We enlist a faucet to pay coin A to a wallet address with logic to pay a higher amount into an anonymous wallet. 
-The higher amount is higher by the same value as coin C which needs privacy.
+Technique: Leveraging how in chialisp wallet addresses are also puzzle hashes and puzzle hashes are also logic.
+If there is coin(s) value in a spend_bundle in excess of deficit value in a coin in the same bundle then the coin having the deficit successfully spends.
+We enlist a faucet to pay coin A to a wallet address with logic to pay a higher amount than it is worth(deficit value) into an anonymous wallet. 
+The deficit value of coin A is the same value as coin C which needs privacy.
 The transaction was provably successful.
-There is no way I know of to prove or deny that the value that coin A required in it's chialisp to run did or did not come from coin C.  
+There is no way I know of to prove or deny that deficit value of coin A required did or did not come from coin C, coin B or a combination.  
 
-NOTE: This is completely insecure and error prone to do it this way. 
-But is the best way I could think of to foster comprehension, copy/paste and hopefully discussion. 
+NOTE: This is completely insecure and error prone doing it this way, but the best way to foster discussion in my opinion. 
 --------------
+My notes for this transaction:
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
 Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
 *nucle.io might have my IP address
