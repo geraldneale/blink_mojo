@@ -1,3 +1,10 @@
+README:
+Purpose: To demonstrate using a couple of builtin features of chialisp that it is possible to short-range "teleport" value and thereby enhance privacy.
+Technique: Leveraging how in chialisp wallet addresses are also puzzle hashes and puzzle hashes are also logic. 
+We enlist a faucet to pay coin A to a wallet address with logic to pay a higher amount into an anonymous wallet. 
+The higher amount is higher by the same value as coin C which needs privacy.
+This transaction was successful and there is no way I know of to prove or deny that the value coin A required did or did not come from coin C.  
+NOTE: This is completely insecure and error prone to do it this way, but is the best way I could think of to foster comprehension, copy/paste and hopefully discussion of my theory. 
 
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
 Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
