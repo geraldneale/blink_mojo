@@ -5,7 +5,7 @@ If there is unassigned coin(s) value in a spend_bundle in excess of deficit valu
 We enlist a faucet to pay coin A to a wallet address with logic to pay a higher amount than it is worth(has deficit value) into an anonymous wallet. 
 The deficit value of coin A is the same value as coin C which needs privacy.
 The transaction was provably successful.
-There is no way I know of to prove or deny that deficit value of coin A required did or did not come from coin C, coin B or a combination.  
+There is no way I know of to prove or deny that deficit value of coin A did or did not come from coin C, coin B or a combination.  
 
 NOTE: This is completely insecure and error prone doing it this way, but the best way to foster discussion in my opinion. 
 --------------
