@@ -1,7 +1,7 @@
 Purpose: To demonstrate using a couple of builtin features of chialisp that it is possible to short-range "teleport"(blink) value and thereby enhance privacy.
 
 Technique: Leveraging how in chialisp wallet addresses are also puzzle hashes and puzzle hashes are also logic.
-If there is coin(s) value in a spend_bundle in excess of deficit value in a coin in the same bundle then the coin having the deficit successfully spends.
+If there is unassigned coin(s) value in a spend_bundle in excess of deficit value in a coin in the same bundle then the coin having the deficit successfully spends.
 We enlist a faucet to pay coin A to a wallet address with logic to pay a higher amount than it is worth(deficit value) into an anonymous wallet. 
 The deficit value of coin A is the same value as coin C which needs privacy.
 The transaction was provably successful.
