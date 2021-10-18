@@ -1,4 +1,4 @@
-Anonymous Wallet(NOTE:parent_coin_info traces only to coin created by the faucet):
+Anonymous Wallet(NOTE:parent_coin_info coinID 0xc57da594a6a4d1392ce04fa223b95b38faa096324f2a4a309fc639226b91dcfc traces to the coin created by the faucet):
 "coin": {
             "amount": 200,
             "parent_coin_info": "0xc57da594a6a4d1392ce04fa223b95b38faa096324f2a4a309fc639226b91dcfc",
@@ -20,4 +20,3 @@ Known Wallet:
         "spent": false,
         "spent_block_index": 0,
         "timestamp": 1634333331
-        
