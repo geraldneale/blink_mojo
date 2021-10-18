@@ -1,4 +1,4 @@
-Purpose:To demonstrate, using a couple of builtin features of chialisp, 
+Purpose: To demonstrate, using a couple of builtin features of chialisp, 
 that it's possible to short-range "teleport"(blink) value and thereby enhance money privacy.
 
 Technique: Leveraging how in chialisp wallet addresses are also puzzle hashes and puzzle hashes are also logic.
