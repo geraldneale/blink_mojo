@@ -1,0 +1,23 @@
+Anonymous Wallet(NOTE:parent_coin_info traces only to coin created by the faucet):
+"coin": {
+            "amount": 200,
+            "parent_coin_info": "0xc57da594a6a4d1392ce04fa223b95b38faa096324f2a4a309fc639226b91dcfc",
+            "puzzle_hash": "0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940"
+        },
+        "coinbase": false,
+        "confirmed_block_index": 1002908,
+        "spent": false,
+        "spent_block_index": 0,
+        "timestamp": 1634333331
+Known Wallet:
+        "coin": {
+            "amount": 200,
+            "parent_coin_info": "0x6a0e8c55c9962c3876aa4ac2fea64a3608f48432660c8e2657ce3838d3c82603",
+            "puzzle_hash": "0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521"
+        },
+        "coinbase": false,
+        "confirmed_block_index": 1002908,
+        "spent": false,
+        "spent_block_index": 0,
+        "timestamp": 1634333331
+        
