@@ -1,0 +1,44 @@
+Coin A: 0xc57da594a6a4d1392ce04fa223b95b38faa096324f2a4a309fc639226b91dcfc
+"coin": {
+            "amount": 100,
+            "parent_coin_info": "0xdd34c450a68dabe8851fca2b81ffdef4120a9465039f9c34e5feb059a97acd31",
+            "puzzle_hash": "0x55cbce99411743ae478a938e5603f1f937ae0e52d9d73293e6dfe6b22a83a290"
+        },
+        "coinbase": false,
+        "confirmed_block_index": 1002737,
+        "spent": true,
+        "spent_block_index": 1002908,
+        "timestamp": 1634330154
+Coin B: 0x6a0e8c55c9962c3876aa4ac2fea64a3608f48432660c8e2657ce3838d3c82603
+        "coin": {
+            "amount": 100,
+            "parent_coin_info": "0x09be1fdbc68ab86fb6c681aa76687da685e0718352ba1edac4c71fbe34a5a639",
+            "puzzle_hash": "0x8a3bf47feade69aefbad6e8219933c78f57ddb2c3d107de5403a0fc9848d813a"
+        },
+        "coinbase": false,
+        "confirmed_block_index": 1002799,
+        "spent": true,
+        "spent_block_index": 1002908,
+        "timestamp": 1634331443
+Coin C: 0xc1fbcce9c4a2b65811a5e9dc7a5e1ba763a1a1368d53024c95c68d859fbe7ceb
+        "coin": {
+            "amount": 100,
+            "parent_coin_info": "0x3e18caf8ff69bd958d5ac71baa5c1ddf003cfaffad6eae247d8930da7a6f8341",
+            "puzzle_hash": "0x9dcf97a184f32623d11a73124ceb99a5709b083721e878a16d78f596718ba7b2"
+        },
+        "coinbase": false,
+        "confirmed_block_index": 993453,
+        "spent": true,
+        "spent_block_index": 1002908,
+        "timestamp": 1634157939
+Coin D: 0x0349e8f2715adf51171d4e788b7cae8960ff92b1d40988b93534d361b59495d0
+        "coin": {
+            "amount": 100,
+            "parent_coin_info": "0x885bd91652625f1515ecf0083e3006e61340b45a1dd0884a10f11c85b46dbe14",
+            "puzzle_hash": "0x9dcf97a184f32623d11a73124ceb99a5709b083721e878a16d78f596718ba7b2"
+        },
+        "coinbase": false,
+        "confirmed_block_index": 993443,
+        "spent": true,
+        "spent_block_index": 1002908,
+        "timestamp": 1634157687
