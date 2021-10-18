@@ -5,12 +5,13 @@ Technique: Leveraging how in chialisp wallet addresses are also puzzle hashes an
 And how if there is unassigned coin value in a spend_bundle in excess of a deficit value in the same bundle then the coin having a deficit successfully spends.
 We enlist a faucet to pay coin A to a wallet address with logic to pay a higher amount than it is worth(has a deficit value) into an anonymous wallet. 
 The deficit value of coin A is the same value as coin C which needs privacy.
-This particular transaction was provably successful.
-There is no known way to prove or deny that the deficit value of coin A did or did not come from coin C, coin B or a combination of the two.  
+This particular transaction is verifiably successful as per the files herein 
+and I assert there is no way to prove that the deficit value coin A overcame did or did not come from coin C, coin B or a combination of them.  
 
-NOTE: This is completely insecure and error prone doing it this way, but rather designed to foster discussion. 
+NOTE: This technique is completely insecure and error prone(AKA you will lose you money), but rather designed to foster discussion. 
+Please feel free to attempt to prove my assertion wrong. 
 --------------
-Personal notes for this transaction:
+Personal notes used to complete this transaction:
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
 Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
 *used nucle.io who might get your IP address
