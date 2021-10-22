@@ -1,0 +1,34 @@
+Coin A: c57da594a6a4d1392ce04fa223b95b38faa096324f2a4a309fc639226b91dcfc
+[
+    {
+        "coin": {
+            "amount": 200,
+            "parent_coin_info": "0xc57da594a6a4d1392ce04fa223b95b38faa096324f2a4a309fc639226b91dcfc",
+            "puzzle_hash": "0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940"
+        },
+        "coinbase": false,
+        "confirmed_block_index": 1002908,
+        "spent": false,
+        "spent_block_index": 0,
+        "timestamp": 1634333331
+    }
+]
+Coin B: 6a0e8c55c9962c3876aa4ac2fea64a3608f48432660c8e2657ce3838d3c82603 
+[
+    {
+        "coin": {
+            "amount": 200,
+            "parent_coin_info": "0x6a0e8c55c9962c3876aa4ac2fea64a3608f48432660c8e2657ce3838d3c82603",
+            "puzzle_hash": "0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521"
+        },
+        "coinbase": false,
+        "confirmed_block_index": 1002908,
+        "spent": false,
+        "spent_block_index": 0,
+        "timestamp": 1634333331
+    }
+]
+Coin C: c1fbcce9c4a2b65811a5e9dc7a5e1ba763a1a1368d53024c95c68d859fbe7ceb
+[]
+Coin D: 0349e8f2715adf51171d4e788b7cae8960ff92b1d40988b93534d361b59495d0
+[]
