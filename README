@@ -1,15 +1,17 @@
 Purpose: 
 
-Despite the massive success of Bitcoin protocol, money privacy remains the unrealized priority of A Cypherpunk's Manifesto by Eric Hughes (https://nakamotoinstitute.org/static/docs/cypherpunk-manifesto.txt) published March 9, 1993
-as per Alex Gladstein's THE QUEST FOR DIGITAL CASH published on October 13, 2021 (https://bitcoinmagazine.com/culture/bitcoin-adam-back-and-digital-cash).
+Despite the massive success of Bitcoin protocol, money privacy remains the unrealized priority of 
+A Cypherpunk's Manifesto by Eric Hughes (https://nakamotoinstitute.org/static/docs/cypherpunk-manifesto.txt) published March 9, 1993; 
+at least it is as per Alex Gladstein's The Quest For Digital Cash published on October 13, 2021 (https://bitcoinmagazine.com/culture/bitcoin-adam-back-and-digital-cash).
 
-Gladstein cites David Chaum from 1992 expressing that mankind was at a decision point, 
+Gladstein cites earlier works from David Chaum in 1992 concerning the digital age expressing that mankind is at a decision point, 
 where “in one direction lies unprecedented scrutiny and control of people’s lives; 
 in the other, secure parity between individuals and organizations. 
 The shape of society in the next century,” he wrote, “may depend on which approach predominates.”
 
 This project is to demonstrate, using a couple of builtin features of the new Chialisp programming language, 
-that it's possible to short-range "teleport"(blink) value and thereby enhance money privacy more in line with the stated requirements of the original Cypherpunks.
+that it's possible to short-range "teleport"(blink) value and thereby enhance money privacy,
+making it more in line with the stated requirements of the original Cypherpunks and more like David Chaum's vision of secure parity.
 
 Technique: 
 
