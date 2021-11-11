@@ -8,15 +8,16 @@ And how in chialisp, wallet addresses are also puzzle hashes, and puzzle hashes 
 We enlist a faucet to pay coin A to a newly created anonymous wallet address with logic to pay a higher amount than it is worth(has a deficit value). 
 The deficit value of coin A is the same value as coin C which needs privacy. 
 Coin C spends without creating an unspent coin with it's coinID as parent_coin_info.
-The value of coin C has blinked somewhere, but the world cannot be sure where!
-This process can be repeated as many times as is necessary to accumulate sufficient doubt where the value of coin C resides on the blockchain.
-This particular transaction is verifiably successful as per the files herein. 
-I assert there is no way to prove that the deficit value that coin A overcame did or did not come from coin C, 
-or coin B (which was spent in a similar way without creating a parent_coin_id) or a combination,
-thereby there is enhanced privacy gained from using the intrinsic attributes Chialisp like this. 
+The value of coin C has "blinked" somewhere, but nobody can determine where!
+Blinking can be repeated as many times as necessary to accumulate excess doubt where the value of coin C resides at any given time on the blockchain.
+This technique is verifiably successful as per one particular transaction shown in the files herein. 
+I assert there is no way to prove that the deficit value coin A overcame did or did not come from coin C, 
+or coin B (which was spent in almost the way), or a combination of coin A and coin B,
+thereby privacy is gained from using intrinsic attributes Chialisp like this. 
 
-NOTE: This technique is an exhibition and therefore completely insecure and error prone(AKA you will lose your money). It is designed to foster discussion. 
-Please attempt to prove my assertion wrong and tell me about it.
+NOTE: Blink_mojo technique is an exhibition and therefore completely insecure and error prone(AKA you will lose your money). It is designed to foster discussion. 
+There will be an enhanced version called blink_mojo-secure which uses aggregated signatures to secure in the nearfuture.
+Please attempt to prove my assertion wrong with vigor and say why.
 --------------
 Personal notes used to complete this transaction:
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
