@@ -6,9 +6,9 @@ Technique:
 Leveraging how if there is unassigned coin value in a spend_bundle in excess of a deficit value in the same bundle then the coin having deficit successfully spends.
 And how in chialisp, wallet addresses are also puzzle hashes, and puzzle hashes are also logic. 
 We enlist a faucet to pay coin A to a newly created anonymous wallet address with logic to pay a higher amount than it is worth(has a deficit value). 
-The deficit value of coin A is the same value as coin C which needs privacy.
+The deficit value of coin A is the same value as coin C which needs privacy and spends without creating a parent_coin_id.
 This particular transaction is verifiably successful as per the files herein 
-and I assert there is no way to prove that the deficit value of coin A did or did not come from coin C, coin B or a combination of them,
+and I assert there is no way to prove that the deficit value of coin A did or did not come from coin C, coin B (which was spent in a similar way without creating a parent_coin_id) or a combination,
 thereby there is enhanced privacy gained from Chialisp. 
 
 NOTE: This technique is completely insecure and error prone(AKA you will lose your money), but rather designed to foster discussion. 
