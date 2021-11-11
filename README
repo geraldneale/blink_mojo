@@ -19,13 +19,13 @@ Leveraging how if there is unassigned coin value in a spend_bundle in excess of 
 And how in chialisp, wallet addresses are also puzzle hashes, and puzzle hashes are also logic. 
 We enlist a faucet to pay coin A to a newly created anonymous wallet address with logic to pay a higher amount than it is worth(has a deficit value). 
 The deficit value of coin A is the same value as coin C which needs privacy. 
-Coin C spends without creating an unspent coin with it's coinID as parent_coin_info.
+Coin C spends yet there is no trace of it's coinID as parent_coin_info anywhere.
 The value of coin C has "blinked" somewhere, but nobody can determine where!
 Blinking can be repeated as many times as necessary to accumulate excess doubt where the value of coin C resides at any given time on the blockchain.
-This technique is verifiably successful as per one particular transaction shown in the files herein. 
-I assert there is no way to prove that the deficit value coin A overcame did or did not come from coin C, 
-or coin B (which was spent in almost the way), or a combination of coin A and coin B,
-thereby privacy is gained from using intrinsic attributes Chialisp like this. 
+This technique is verifiably successful as per the transaction demonstrated in the files herein. 
+I assert there is no proof that the deficit value coin A overcame did or did not come from coin C, 
+or coin B (which was spent in almost the way), or a combination of coin B and coin C;
+thereby privacy has been gained for coin C by using intrinsic attributes of Chialisp in this way. 
 
 NOTE: Blink_mojo technique is an exhibition and therefore completely insecure and error prone(AKA you will lose your money). It is designed to foster discussion. 
 There will be an enhanced version called blink_mojo-secure which uses aggregated signatures to secure in the nearfuture.
