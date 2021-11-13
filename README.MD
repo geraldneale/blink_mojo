@@ -32,7 +32,7 @@ Please attempt to prove my assertion wrong with vigor and say why.
 
 ![Alt text](blink_mojo-graphic.png?raw=true "Blink Mojo - Graph")
 
---------------
+
 Personal notes used to complete this transaction:
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
 Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
