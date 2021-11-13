@@ -40,18 +40,25 @@ Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
 
 ----------
 CoinA(created by wallet address converted from puzzlehash and put into faucet.chia.net):
+
 	    "amount": 100,
             "parent_coin_info": "0xdd34c450a68dabe8851fca2b81ffdef4120a9465039f9c34e5feb059a97acd31",
             "puzzle_hash": "0x55cbce99411743ae478a938e5603f1f937ae0e52d9d73293e6dfe6b22a83a290"
+	    
 CoinB(created normally):
+
             "amount": 100,
             "parent_coin_info": "0x09be1fdbc68ab86fb6c681aa76687da685e0718352ba1edac4c71fbe34a5a639",
             "puzzle_hash": "0x8a3bf47feade69aefbad6e8219933c78f57ddb2c3d107de5403a0fc9848d813a"
+	    
 CoinC(created normally):
+
             "amount": 100,
             "parent_coin_info": "0x3e18caf8ff69bd958d5ac71baa5c1ddf003cfaffad6eae247d8930da7a6f8341",
             "puzzle_hash": "0x9dcf97a184f32623d11a73124ceb99a5709b083721e878a16d78f596718ba7b2"
+	    
 CoinD(created normally):
+
             "amount": 100,
             "parent_coin_info": "0x885bd91652625f1515ecf0083e3006e61340b45a1dd0884a10f11c85b46dbe14",
             "puzzle_hash": "0x9dcf97a184f32623d11a73124ceb99a5709b083721e878a16d78f596718ba7b2"
