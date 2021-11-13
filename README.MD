@@ -28,7 +28,6 @@ or coin B (which was spent in almost the way), or a combination of coin B and co
 thereby privacy has been gained for coin C by using intrinsic attributes of Chialisp in this way.
 
 ![Alt text](blink_mojo-graphic.png?raw=true "Blink Mojo - Graph")
-![alt text](https://github.com/geraldneale/blink_mojo/blob/main/blink_mojo-graphic.png)
 
 
 NOTE: Blink_mojo technique is an exhibition and therefore completely insecure and error prone(AKA you will lose your money). It is designed to foster discussion. 
