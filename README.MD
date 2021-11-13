@@ -36,7 +36,8 @@ Please attempt to prove my assertion wrong with vigor and say why.
 Personal notes used to complete this transaction:
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
 Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
-*used nucle.io who might get your IP address
+*used nucle.io whom may harvest originating IP address
+
 ----------
 CoinA(created by wallet address converted from puzzlehash and put into faucet.chia.net):
 	    "amount": 100,
