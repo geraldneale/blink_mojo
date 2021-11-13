@@ -39,7 +39,7 @@ Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
 *used nucle.io whom may harvest originating IP address
 
 ----------
-CoinA(created by wallet address converted from puzzlehash and put into faucet.chia.net):
+CoinA(created via faucet.chia.net for anonymity):
 
 	    "amount": 100,
             "parent_coin_info": "0xdd34c450a68dabe8851fca2b81ffdef4120a9465039f9c34e5feb059a97acd31",
