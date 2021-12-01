@@ -26,9 +26,10 @@ This technique is verifiably successful as per the transaction demonstrated in t
 I assert there is no proof that the deficit value coin A overcame did or did not come from coin C, 
 or coin B (which was spent in almost the way), or a combination of coin B and coin C;
 thereby privacy has been gained for coin C by using intrinsic attributes of Chialisp in this way.
+
 NOTE: Blink_mojo technique is an exhibition and therefore completely insecure and error prone(AKA you will lose your money). It is designed to foster discussion. 
-There will be an enhanced version called blink_mojo-secure which uses aggregated signatures to secure in the nearfuture.
-Please attempt to prove my assertion wrong with vigor and say why.
+There is an enhanced version called blink_mojo-secure(https://github.com/geraldneale/blink_mojo-secure) which uses aggregated signatures to secure.
+Please attempt to prove my assertion here wrong with vigor and say why.
 
 ![Alt text](blink_mojo-graphic.png?raw=true "Blink Mojo - Graph")
 
