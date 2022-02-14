@@ -70,4 +70,3 @@ xch1hv4gj4vvdsyzn9hrhy9tn6hu6jwk82tyrs3t4r33468x642myjws8kh8xl
 
 http://mojopuzzler.org
 
-http://mojopuzzler.org/pusht.php
