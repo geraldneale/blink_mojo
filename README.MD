@@ -1,7 +1,8 @@
 "Cypherpunks write code." - Eric Hughes
+==
 
 Purpose: 
-
+==
 Despite the massive success of Bitcoin protocol, money privacy remains the unrealized priority of 
 A Cypherpunk's Manifesto by Eric Hughes (https://nakamotoinstitute.org/static/docs/cypherpunk-manifesto.txt) published March 9, 1993; 
 at least as per Alex Gladstein's viewpoint expressed in The Quest For Digital Cash published on October 13, 2021 (https://bitcoinmagazine.com/culture/bitcoin-adam-back-and-digital-cash).
@@ -16,7 +17,7 @@ that it's possible to short-range "teleport"(blink) value and thereby enhance mo
 making it more in line with the stated requirements of the original Cypherpunks and more like David Chaum's vision of secure parity.
 
 Technique: 
-
+==
 Leveraging how if there is unassigned coin value in a spend_bundle in excess of deficit value in the same bundle then the coin having deficit successfully spends.
 And leveraging how in chialisp, wallet addresses are also puzzle hashes, and puzzle hashes are also logic.
 
@@ -40,6 +41,7 @@ Please attempt to prove my assertion wrong with vigor and say why.
 ![Alt text](blink_mojo-graphic.png?raw=true "Blink Mojo - Graph")
 
 Notes used to complete this transaction:
+==
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
 Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
 *used nucle.io whom may harvest originating IP address
@@ -69,6 +71,8 @@ CoinD(created normally):
             "parent_coin_info": "0x885bd91652625f1515ecf0083e3006e61340b45a1dd0884a10f11c85b46dbe14",
             "puzzle_hash": "0x9dcf97a184f32623d11a73124ceb99a5709b083721e878a16d78f596718ba7b2"
 
+Credit:
+==
 Gerald Neale 2021-10-16
 
 xch1hv4gj4vvdsyzn9hrhy9tn6hu6jwk82tyrs3t4r33468x642myjws8kh8xl
