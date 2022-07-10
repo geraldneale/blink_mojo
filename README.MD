@@ -1,3 +1,5 @@
+"Cypherpunks write code." - Eric Hughes
+
 Purpose: 
 
 Despite the massive success of Bitcoin protocol, money privacy remains the unrealized priority of 
