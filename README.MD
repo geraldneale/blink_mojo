@@ -15,26 +15,29 @@ making it more in line with the stated requirements of the original Cypherpunks 
 
 Technique: 
 
-Leveraging how if there is unassigned coin value in a spend_bundle in excess of a deficit value in the same bundle then the coin having deficit successfully spends.
-And how in chialisp, wallet addresses are also puzzle hashes, and puzzle hashes are also logic. 
-We enlist a faucet to pay coin A to a newly created anonymous wallet address with logic to pay a higher amount than it is worth(has a deficit value). 
-The deficit value of coin A is the same value as coin C which needs privacy. 
-Coin C spends yet there is no trace of it's coinID as parent_coin_info anywhere.
-The value of coin C has "blinked" somewhere, but nobody can determine where!
-Blinking can be repeated as many times as necessary to accumulate excess doubt where the value of coin C resides at any given time on the blockchain.
-This technique is verifiably successful as per the transaction demonstrated in the files herein. 
-I assert there is no proof that the deficit value coin A overcame did or did not come from coin C, 
-or coin B (which was spent in almost the way), or a combination of coin B and coin C;
-thereby privacy has been gained for coin C by using intrinsic attributes of Chialisp in this way.
+Leveraging how if there is unassigned coin value in a spend_bundle in excess of deficit value in the same bundle then the coin having deficit successfully spends.
+And leveraging how in chialisp, wallet addresses are also puzzle hashes, and puzzle hashes are also logic.
 
-NOTE: Blink_mojo technique is an exhibition and therefore completely insecure and error prone(AKA you will lose your money). It is designed to foster discussion. 
-There is an enhanced version called blink_mojo-secure(https://github.com/geraldneale/blink_mojo-secure) which uses aggregated signatures to secure.
-Please attempt to prove my assertion here wrong with vigor and say why.
+We enlist a faucet to spend coin A to a newly created anonymous wallet address with logic to spend a higher amount than it is worth(deficit value). 
+The deficit value of coin A is the same value or less than coin C which needs privacy and represents unassigned value. 
+
+Coin C value that is unassigned spends and there is no trace of it's coinID as parent_coin_info anywhere on the chia blockchain.
+The value of coin C has "blinked" somewhere, but nobody can determine where.
+Blinking can be repeated as many times as necessary to accumulate doubt of where the value of coin C resides at any given time on the blockchain.
+This technique is verifiably successful as per the transactions demonstrated in the files herein; spendbudles, audit files etc. 
+I assert there is no proof that the deficit value coin A overcame did or did not come from the unassigned value of coin C, 
+or the unassigned value coin B (which was spent in nearly the way), or a combination of values from coin B and coin C;
+thereby privacy has been gained for coin C.
+
+NOTE: Blink_mojo technique is an exhibition and therefore completely insecure and error prone(AKA you will lose your money). It is designed to foster discussion.
+
+There is an enhanced version of this techniche called py-blink_mojo-secure(https://github.com/geraldneale/py-blink_mojo-secure) which uses aggregated signatures to secure and a python3 driver to automate nearly all of it.
+
+Please attempt to prove my assertion wrong with vigor and say why.
 
 ![Alt text](blink_mojo-graphic.png?raw=true "Blink Mojo - Graph")
 
-
-Personal notes used to complete this transaction:
+Notes used to complete this transaction:
 Anonymous Wallet*: 0x1d4c24bff6bf87b6896f1efd15e9d2fe15e17f07252752c695d3261c1148d940
 Known Wallet: 0x58bb585420abf3275685a71e2ea26637890881f6f469b20ab32a73a7db324521
 *used nucle.io whom may harvest originating IP address
