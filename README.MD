@@ -18,25 +18,25 @@ making it more in line with the stated requirements of the original Cypherpunks 
 
 Technique: 
 ==
-Leveraging how if there is unassigned coin value in a chia spend bundle in excess of deficit value in the same bundle then the coin having deficit still successfully spends and maintains it's parent lineage. You can theoretically assign an unlimited amount of XCH value to this lineage as long as it is in excess somewhere else in the spend bundle.
-And leveraging how in chialisp, wallet addresses are also puzzle hashes, and puzzle hashes are also logic.
+Leveraging how if there is unassigned spent coin value in a chia spend bundle in excess of deficit value in one coin in the same bundle then the coin having deficit still successfully spends and maintains it's parent lineage to the next unspent coin on the chia blockchain. You can theoretically assign an unlimited amount of XCH value to this coin lineage and as long as there is excess value somewhere else in the same spend bundle the transaction will go through.
+The other thing we are leveraging is how in chialisp wallet addresses are just encoded puzzle hashes and puzzle hashes are just compiled programming logic. Therefore when we ask another party to send value to an address we can control the programming logic of what happens next when that coin gets spent.
 
-We enlist a faucet to spend coin A to a newly created anonymous wallet address with logic to spend a higher amount than it is worth(deficit value). 
-The deficit value of coin A is the same value or less than coin C which needs privacy and represents unassigned value. 
+We enlist a faucet to take advantage of the latter point, to put a new coin on the blockchain Coin A, that when spent sends value in excess of it's own value to a newly created anonymous wallet address. Coin A  has deficit value. 
+The deficit value of coin A must be the same value or less than Coin C which needs privacy and spends in the same spend bundle with unassigned value transfer. This means if there is no deficit value elsewhere in the spend bundle it would become fees. 
 
-Coin C value that is unassigned spends and there is no trace of it's coinID as parent_coin_info anywhere on the chia blockchain.
-The value of coin C has "blinked" somewhere, but nobody can determine where.
-Blinking can be repeated as many times as necessary to accumulate doubt of where the value of coin C resides at any given time on the blockchain.
-This technique is verifiably successful as per the transactions demonstrated in the files herein; spendbudles, audit files etc. 
-I assert there is no proof that the deficit value coin A overcame did or did not come from the unassigned value of coin C, 
-or the unassigned value coin B (which was spent in nearly the way), or a combination of values from coin B and coin C;
-thereby privacy has been gained for coin C.
+When Coin C's unassigned value spends there is no it's coinID lineage ends full stop right there. In other words, there is no parent_coin_info RPC call info anywhere on the chia blockchain.
+The value of Coin C needing privacy has "blink mojo'd" somewhere, but nobody can determine where.
+Blinking can be repeated as many times as necessary to accumulate doubt of where the value of Coin C resides at any given time on the blockchain.
+This technique is verifiably successful as per the transactions demonstrated in the files herein; spendbundle files, audit files etc. 
+I assert there is no proof that the deficit value that Coin A overcame did or did not come from the unassigned value of Coin C, 
+or the unassigned value Coin B (which was spent in nearly the same way and simply present to create furhter doubt),
+thereby privacy has been gained for Coin C which is our goal.
 
-NOTE: Blink_mojo technique is an exhibition and therefore completely insecure and error prone(AKA you will lose your money). It is designed to foster discussion.
+NOTE: blink_mojo technique used in these examples was of almost infinitely small value for exhibition purposes. It was done completely insecure and is error prone(AKA you will lose your money). It is designed to foster discussion.
 
-There is an enhanced version of this techniche called py-blink_mojo-secure(https://github.com/geraldneale/py-blink_mojo-secure) which uses aggregated signatures to secure and a python3 driver to automate nearly all of it.
+There is an enhanced version of this technich called py-blink_mojo-secure(https://github.com/geraldneale/py-blink_mojo-secure) which uses aggregated signatures to secure and a python3 driver to automate nearly all of it on the testnet10 chia blockchain.
 
-Please attempt to prove my assertion wrong with vigor and say why.
+Please attempt to prove my assertion wrong by using the open source software here and explain what assumptions I have wrong with vigor and say why. I only really care about on-chain analysis. Mempool copies are centralized and are as worthless, in my opinion, as any other centralized money auditing system. 
 
 ![Alt text](blink_mojo-graphic.png?raw=true "Blink Mojo - Graph")
 
