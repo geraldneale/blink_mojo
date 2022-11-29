@@ -24,19 +24,19 @@ The other thing we are leveraging is how in chialisp wallet addresses are just e
 We enlist a faucet to take advantage of the latter point, to put a new coin on the blockchain Coin A with logic we control and their lineage, that when spent sends value in excess of it's own value to a newly created anonymous wallet address. Coin A has what I call "deficit value" and woould never spend alone in a spend bundle. 
 To spend, the deficit value of Coin A must be the same or less than the value Coin C (which needs privacy) and spends in the same spend bundle with an excess of unassigned value. Excess value coin means if there is no deficit value elsewhere in the spend bundle this value would become fees.  
 
-When Coin C's unassigned value spends there is no it's coinID lineage ends full stop right there. In other words, there is no parent_coin_info RPC call info anywhere on the chia blockchain.
-The value of Coin C needing privacy has "blink mojo'd" somewhere, but nobody can determine where.
+When Coin C(needs privacy coin) spends it excess unassigned value it's lineage ends. In other words, there is no parent_coin_info RPC call available anywhere on the chia blockchain.
+The value of Coin C (needs privacy) has "blink mojo'd" somewhere, but nobody can determine exactly where.
 Blinking can be repeated as many times as necessary to accumulate doubt of where the value of Coin C resides at any given time on the blockchain.
 This technique is verifiably successful as per the transactions demonstrated in the files herein; spendbundle files, audit files etc. 
-I assert there is no proof that the deficit value that Coin A overcame did or did not come from the unassigned value of Coin C, 
-or the unassigned value Coin B (which was spent in nearly the same way and simply present to create furhter doubt),
-thereby privacy has been gained for Coin C which is our goal.
+I assert there is no proof that the deficit value that Coin A overcame to send value to an anonymous wallet did or did not come from the unassigned value of Coin C(needs privacy), 
+or the unassigned value Coin B (which was spent in nearly the same way and simply present to create further doubt of where the needs privacy value went),
+thereby privacy has been gained for Coin C, and the whole Chia Privacy COin Set, which is our ultimate goal.
 
-NOTE: blink_mojo technique used in these examples was of almost infinitely small value for exhibition purposes. It was done completely insecure and is error prone(AKA you will lose your money). It is designed to foster discussion.
+NOTE: blink_mojo technique used in these examples was of almost infinitely small value done on mainnet for exhibition purposes and posterity. It was done completely insecure and is error prone(AKA you will lose your money). It is designed to foster discussion for a long time.
 
-There is an enhanced version of this technich called py-blink_mojo-secure(https://github.com/geraldneale/py-blink_mojo-secure) which uses aggregated signatures to secure and a python3 driver to automate nearly all of it on the testnet10 chia blockchain.
+There is an enhanced version of this technique called py-blink_mojo-secure(https://github.com/geraldneale/py-blink_mojo-secure) which uses aggregated signatures to secure and a python3 driver to automate nearly all of it on the testnet10 chia blockchain. Of course, testnet10 has a limited lifespan so I felt it was necessary to do a small demonstration on the immutable Chia mainnet blockchain.
 
-Please attempt to prove my assertion wrong by using the open source software here and explain what assumptions I have wrong with vigor and say why. I only really care about on-chain analysis. Mempool copies are centralized and are as worthless, in my opinion, as any other centralized money auditing system. 
+Please attempt to prove my assertion wrong by using the open source software I am offering here and explain what assumptions I have wrong with vigor. We should only really care about on-chain analytical arguments. Mempool db copies are centralized and are as worthless, in my opinion, as any other centralized money auditing system. 
 
 ![Alt text](blink_mojo-graphic.png?raw=true "Blink Mojo - Graph")
 
