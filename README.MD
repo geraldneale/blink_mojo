@@ -13,7 +13,7 @@ in the other, secure parity between individuals and organizations.
 The shape of society in the next century,” he wrote, “may depend on which approach predominates.”
 
 This project is to demonstrate, using a couple of builtin features of the new Chialisp programming language, 
-that it's possible to short-range "teleport"(blink) value and thereby enhance money privacy,
+that it's possible to short-range teleport, to "blink", value and thereby enhance money privacy,
 making it more in line with the stated requirements of the original Cypherpunks and more like David Chaum's vision of secure parity.
 
 Technique: 
