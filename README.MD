@@ -19,7 +19,7 @@ making it more in line with the stated requirements of the original Cypherpunks 
 Technique: 
 ==
 Leveraging how if there is unassigned spent coin value in a chia spend bundle in excess of deficit value in one coin in the same bundle then the coin having deficit still successfully spends and maintains it's parent lineage to the next unspent coin on the chia blockchain. You can theoretically assign an unlimited amount of XCH value to the most humble coin lineage because as long as there is excess XCH value somewhere else in the same spend bundle the transaction will go through.
-The other thing we are leveraging is how in chialisp wallet addresses are just encoded puzzle hashes and puzzle hashes are just compiled programming logic. Therefore when we ask another party to send value to an address we can control the programming logic of what happens next when that coin gets spent.
+The other thing we are leveraging is how in chialisp wallet addresses are just encoded puzzle hashes and puzzle hashes are just compiled programming logic. Therefore when we ask another party to send value to an address we 100% control the programming logic of what happens next when that coin eventually gets spent.
 
 We enlist a faucet to take advantage of the latter point, to put a new coin on the blockchain Coin A, that when spent sends value in excess of it's own value to a newly created anonymous wallet address. Coin A  has deficit value. 
 The deficit value of coin A must be the same value or less than Coin C which needs privacy and spends in the same spend bundle with unassigned value transfer. This means if there is no deficit value elsewhere in the spend bundle it would become fees. 
