@@ -30,7 +30,7 @@ Blinking can be repeated as many times as necessary to accumulate doubt of where
 This technique is verifiably successful as per the transactions demonstrated in the files herein; spendbundle files, audit files etc. 
 I assert there is no proof that the deficit value that Coin A overcame to send value to an anonymous wallet did or did not come from the unassigned value of Coin C(needs privacy), 
 or the unassigned value Coin B (which was spent in nearly the same way and simply present to create further doubt of where the needs privacy value went),
-thereby privacy has been gained for Coin C, and the whole Chia Privacy COin Set, which is our ultimate goal.
+thereby privacy has been gained for Coin C, and the Chia Privacy Coin Set which is our ultimate goal. My belief is that the larger this is the more likely average users will want to use it for everyday consumer purposes.
 
 NOTE: blink_mojo technique used in these examples was of almost infinitely small value done on mainnet for exhibition purposes and posterity. It was done completely insecure and is error prone(AKA you will lose your money). It is designed to foster discussion for a long time.
 
