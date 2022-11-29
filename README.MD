@@ -18,7 +18,7 @@ making it more in line with the stated requirements of the original Cypherpunks 
 
 Technique: 
 ==
-Leveraging how if there is unassigned coin value in a spend_bundle in excess of deficit value in the same bundle then the coin having deficit successfully spends.
+Leveraging how if there is unassigned coin value in a spend_bundle in excess of deficit value in the same bundle then the coin having deficit still successfully spends and maintains it's parent lineage. You can theoretically assign an unlimited amount of XCH value to this lineage as long as it is in excess somewhere else in the spend bundle.
 And leveraging how in chialisp, wallet addresses are also puzzle hashes, and puzzle hashes are also logic.
 
 We enlist a faucet to spend coin A to a newly created anonymous wallet address with logic to spend a higher amount than it is worth(deficit value). 
