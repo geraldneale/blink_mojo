@@ -41,8 +41,13 @@ Please attempt to prove my assertion wrong by using the open source software I a
 
 Quotes supporting this notion:
 ==
-“Each coin specifically makes some output coins, but where the amounts of the output coins come from is not very clear. The rule is across a block as a whole the numbers need to add up. The sum of all the coins that are spent must equal the  sum value of all the coins that were created, but it doesn’t draw lines between them. It’s just an aggregate value.” “Construction in Chialisp” - Bram Cohen 20221210  00:16:43 https://youtu.be/nhBzQ-BcFSc?t=1003
-“When you take a bunch of transactions that are in mempool and make a block out of them the boundaries between what those transactions were previously are kind of lost as you do it. It doesn’t remember that information. As far as it’s concerned, once it’s in a block there were a bunch of individual coins that were spent and it does not aggregate together those particular coin spends into where they came from.” “Construction in Chialisp” - Bram Cohen 20221210 00:18:10 https://youtu.be/nhBzQ-BcFSc?t=1089
+“Each coin specifically makes some output coins, but where the amounts of the output coins come from is not very clear. The rule is across a block as a whole the numbers need to add up. The sum of all the coins that are spent must equal the  sum value of all the coins that were created, but it doesn’t draw lines between them. It’s just an aggregate value.” 
+
+“Construction in Chialisp” - Bram Cohen 20221210  00:16:43 https://youtu.be/nhBzQ-BcFSc?t=1003
+
+“When you take a bunch of transactions that are in mempool and make a block out of them the boundaries between what those transactions were previously are kind of lost as you do it. It doesn’t remember that information. As far as it’s concerned, once it’s in a block there were a bunch of individual coins that were spent and it does not aggregate together those particular coin spends into where they came from.” 
+
+“Construction in Chialisp” - Bram Cohen 20221210 00:18:10 https://youtu.be/nhBzQ-BcFSc?t=1089
 t
 
 Notes used to complete this transaction:
