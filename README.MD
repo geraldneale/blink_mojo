@@ -37,8 +37,13 @@ NOTE: blink_mojo technique used in these examples was of almost infinitely small
 There is an enhanced version of this technique called py-blink_mojo-secure(https://github.com/geraldneale/py-blink_mojo-secure) which uses aggregated signatures to secure and a python3 driver to automate nearly all of it on the testnet10 chia blockchain. Of course, testnet10 has a limited lifespan so I felt it was necessary to do a small demonstration on the immutable Chia mainnet blockchain.
 
 Please attempt to prove my assertion wrong by using the open source software I am offering here and explain what assumptions I have wrong with vigor. We should only really care about on-chain analytical arguments. Mempool db copies are centralized and are as worthless, in my opinion, as any other centralized money auditing system. 
-
 ![Alt text](blink_mojo-graphic.png?raw=true "Blink Mojo - Graph")
+
+Quotes supporting this notion:
+==
+“Each coin specifically makes some output coins, but where the amounts of the output coins come from is not very clear. The rule is across a block as a whole the numbers need to add up. The sum of all the coins that are spent must equal the  sum value of all the coins that were created, but it doesn’t draw lines between them. It’s just an aggregate value.” “Construction in Chialisp” - Bram Cohen 20221210  00:16:43 https://youtu.be/nhBzQ-BcFSc?t=1003
+“When you take a bunch of transactions that are in mempool and make a block out of them the boundaries between what those transactions were previously are kind of lost as you do it. It doesn’t remember that information. As far as it’s concerned, once it’s in a block there were a bunch of individual coins that were spent and it does not aggregate together those particular coin spends into where they came from.” “Construction in Chialisp” - Bram Cohen 20221210 00:18:10 https://youtu.be/nhBzQ-BcFSc?t=1089
+t
 
 Notes used to complete this transaction:
 ==
