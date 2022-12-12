@@ -48,7 +48,6 @@ Quotes supporting this notion:
 “When you take a bunch of transactions that are in mempool and make a block out of them the boundaries between what those transactions were previously are kind of lost as you do it. It doesn’t remember that information. As far as it’s concerned, once it’s in a block there were a bunch of individual coins that were spent and it does not aggregate together those particular coin spends into where they came from.” 
 
 “Construction in Chialisp” - Bram Cohen 20221210 00:18:10 https://youtu.be/nhBzQ-BcFSc?t=1089
-t
 
 Notes used to complete this transaction:
 ==
