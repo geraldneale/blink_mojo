@@ -88,3 +88,4 @@ xch1hv4gj4vvdsyzn9hrhy9tn6hu6jwk82tyrs3t4r33468x642myjws8kh8xl
 
 http://mojopuzzler.org
 
+https://www.chia.net/2021/05/27/Agrgregated-Sigs-Taproot-Graftroot/
