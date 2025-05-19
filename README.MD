@@ -32,7 +32,7 @@ I assert there is no proof that the deficit value that Coin A overcame to send v
 or the unassigned value Coin B (which was spent in nearly the same way and is simply present to create further doubt of where the needs privacy value went),
 thereby privacy has been gained for Coin C, and the Chia XCH Privacy Coin Set in increased which is our ultimate goal. My belief is that the larger the Chia XCH Privacy Coin Set is the more likely average users will want to use XCH for everyday consumer purposes because auditing does NOT always yield definitive monetary behavior.
 
-NOTE: blink_mojo technique used in these examples was of almost infinitely small value done on mainnet for exhibition purposes and posterity. It was done completely insecure and is error prone(AKA you will lose your money). It is designed to foster discussion for a long time.
+NOTE: blink_mojo technique used in these examples on Chia Mainnet was of almost infinitessimally small value done for exhibition and posterity reference ourposes. It was done in a completely insecure manner and is error prone if you copy(AKA you will lose your money). It is designed to foster discussion only.
 
 There is an enhanced version of this technique called py-blink_mojo-secure(https://github.com/geraldneale/py-blink_mojo-secure) which uses aggregated signatures to secure and a python3 driver to automate nearly all of it on the testnet10 chia blockchain. Of course, testnet10 has a limited lifespan so I felt it was necessary to do a small demonstration on the immutable Chia mainnet blockchain.
 
