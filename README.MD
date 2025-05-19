@@ -25,7 +25,7 @@ We enlist a faucet to take advantage of the latter point, to put a new coin on t
 To spend, the deficit value of Coin A must be the same or less than the value Coin C (which needs privacy) and spends in the same spend bundle with an excess of unassigned value. What I call "excess value" means a coin if there is no deficit value elsewhere in the spend bundle it would still spend, but it's value would become fees for the farmer.  
 
 When Coin C(needs privacy coin) spends this way it's lineage ends. In other words, there is no parent_coin_info RPC call available anywhere on the chia blockchain.
-The value of Coin C (needs privacy) has "blink mojo'd" somewhere, but nobody can determine exactly where.
+The value of Coin C (needs privacy) has "blinked" somewhere, but nobody can determine exactly where using the blockchain as evidence.
 Blinking can be repeated as many times as necessary to accumulate doubt of where the value of Coin C resides at any given time on the blockchain.
 This technique is verifiably successful as per the transactions demonstrated in the files herein; spendbundle files, audit files etc. 
 I assert there is no proof that the deficit value that Coin A overcame to send value to an anonymous wallet did or did not come from the unassigned value of Coin C(needs privacy), 
